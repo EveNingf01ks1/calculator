@@ -2,11 +2,11 @@ from tkinter import Tk, Entry, Button, StringVar
 
 
 class Calculator:
-    def __init__(self, master):
-        master.title('Calculator')
-        master.geometry('357x420+0+0')
-        master.config(bg='gray')
-        master.resizable(False, False)
+    def __init__(self, kitten):
+        kitten.title('Calculator')
+        kitten.geometry('357x420+0+0')
+        kitten.config(bg='gray')
+        kitten.resizable(False, False)
 
         self.equation = StringVar()
         self.entry_value = ''
